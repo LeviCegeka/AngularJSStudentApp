@@ -1,11 +1,11 @@
 <div class="mainClass" >
-  <div class="test" ng-repeat="phone in $ctrl.phones ">
+  <div class="test" ng-repeat="student in $ctrl.students ">
       <div class="card">
           <img src="../assets/BlankProfilePic.webp" alt="Image" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">{{phone.firstName}} {{phone.lastName}}</h5>
+            <h5 class="card-title">{{student.firstName}} {{student.lastName}}</h5>
             <p class="card-text">This is some sample text for the card.</p>
-            <a href="#!/students/{{phone.id}}/{{phone.firstName}}" class="btn btn-primary">Read More</a>
+            <a href="#!/students/{{student.id}}/{{student.firstName}}" class="btn btn-primary">Read More</a>
           </div>
       </div>
   </div>
