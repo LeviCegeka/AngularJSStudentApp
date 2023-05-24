@@ -4,6 +4,6 @@
 angular.module('AngularJSApp', [
   'ngRoute',
   'core',
-  'phoneDetail',
-  'phoneList'
+  'studentDetail',
+  'studentList'
 ]);

@@ -5,15 +5,15 @@ angular.
   config(['$routeProvider',
     function config($routeProvider) {
       $routeProvider.
-        when('/phones', {
-          template: '<phone-list></phone-list>'
+        when('/students', {
+          template: '<student-list></student-list>'
         }).
-        when('/phones/:phoneId', {
-          template: '<phone-detail></phone-detail>'
+        when('/students/:student', {
+          template: '<student-detail></student-detail>'
         }).
-        when('/phones/:id/:student', {
-          template: '<phone-detail></phone-detail>'
+        when('/students/:id/:student', {
+          template: '<student-detail></student-detail>'
         }).
-        otherwise('/phones');
+        otherwise('/students');
     }
   ]);

@@ -1,13 +1,13 @@
 'use strict';
 
 angular.
-  module('core.phone').
-  factory('Phone', ['$resource',
+  module('core.student').
+  factory('Student', ['$resource',
     function($resource) {
-      return $resource('phones/:phoneId.json', {}, {
+      return $resource('students/:id.json', {}, {
         query: {
           method: 'GET',
-          params: {phoneId: 'phones'},
+          params: {id: 'phones'},
           isArray: true
         }
       });
