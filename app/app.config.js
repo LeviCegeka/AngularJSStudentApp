@@ -8,9 +8,6 @@ angular.
         when('/students', {
           template: '<student-list></student-list>'
         }).
-        when('/students/:student', {
-          template: '<student-detail></student-detail>'
-        }).
         when('/students/:id/:firstName', {
           template: '<student-detail></student-detail>'
         }).
