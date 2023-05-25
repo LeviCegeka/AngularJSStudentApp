@@ -9,7 +9,8 @@
     "@types/angular": "^1.8.5",
     "@types/angular-resource": "^1.5.17",
     "@types/angular-route": "^1.7.2",
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "typescript": "^5.0.4"
   },
   "scripts": {
     "tsc": "tsc",
