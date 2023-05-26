@@ -1,8 +1,8 @@
 'use strict';
-
 angular.module('AngularJSApp', [
-  'ngRoute',
-  'core',
-  'studentDetail',
-  'studentList'
+    'ngRoute',
+    'core',
+    'studentDetail',
+    'studentList'
 ]);
+//# sourceMappingURL=app.module.js.map

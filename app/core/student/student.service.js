@@ -1,15 +1,15 @@
 'use strict';
-
 angular.
-  module('core.student').
-  factory('Student', ['$resource',
-    function($resource) {
-      return $resource('students/:id.json', {}, {
-        query: {
-          method: 'GET',
-          params: {id: 'students'},
-          isArray: true
-        }
-      });
+    module('core.student').
+    factory('Student', ['$resource',
+    function ($resource) {
+        return $resource('students/:id.json', {}, {
+            query: {
+                method: 'GET',
+                params: { id: 'students' },
+                isArray: true
+            }
+        });
     }
-  ]);
+]);
+//# sourceMappingURL=student.service.js.map

@@ -1,13 +1,13 @@
 'use strict';
-
 angular.
-  module('studentList').
-  component('studentList', {
+    module('studentList').
+    component('studentList', {
     templateUrl: 'student-list/student-list.template.html',
     controller: ['Student',
-      function StudentListController(Student) {
-        console.log(Student);
-        this.students = Student.query();
-      }
+        function StudentListController(Student) {
+            console.log(Student);
+            this.students = Student.query();
+        }
     ]
-  });
+});
+//# sourceMappingURL=student-list.component.js.map
